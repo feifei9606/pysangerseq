@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+
+# 本机运行临时产物（原 R 流程会生成 .SCF/.fasta 中间文件）
+Rplots.pdf
+*.SCF
+*.fasta
+
+# 样本数据与其衍生输出：文件名含样本编号，不入公共仓库
+# （demo 图是刻意挑选后放在 docs/ 下的，不在 data/ 里）
+data/
+
+# 编辑器 / 系统 / 本机助手数据
+.vscode/
+.idea/
+.DS_Store
+.codebuddy/
